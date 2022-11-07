@@ -11,7 +11,9 @@ FLAGS		=	-Wall -Wextra -Werror -std=c++98
 
 
 SRC_FILES	=	main.cpp\
-				Weapon.cpp
+				Weapon.cpp\
+				HumanA.cpp\
+				HumanB.cpp
 				
 
 SRC			=	$(addprefix $(SRC_DIR)/, $(SRC_FILES))
