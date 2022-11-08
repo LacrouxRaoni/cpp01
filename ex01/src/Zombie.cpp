@@ -4,7 +4,7 @@ Zombie::Zombie(){
 }
 
 Zombie::~Zombie(){
-	std::cout << this->_name << ": is dead...again" << std::endl;
+	std::cout << "Zombie is dead...again" << std::endl;
 }
 
 std::string Zombie::getName(){
@@ -16,6 +16,6 @@ void Zombie::insertName(std::string name){
 }
 
 void Zombie::announce(void){
-	std::cout << this->_name << ": was created..." << std::endl;
+	std::cout << this->_name << ": is alive..." << std::endl;
 }
 
