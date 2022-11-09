@@ -1,11 +1,10 @@
-#include <iostream>
 #include "Harl.hpp"
 
 int main(void){
-	Harl lala;
-	lala.complain("warning");
-	lala.complain("debug");
-	lala.complain("info");
-	lala.complain("ERROR");
-	lala.complain("teste");
+	Harl harl;
+	harl.complain("warning");
+	harl.complain("debug");
+	harl.complain("info");
+	harl.complain("ERROR");
+	harl.complain("teste");
 }
