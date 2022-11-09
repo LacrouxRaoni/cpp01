@@ -3,7 +3,7 @@
 int main(int argc, char *argv[]){
 	File file;
 
-	if (argc < 5)
+	if (argc == 4)
 	{
 		if (!file.s1s2Handler(argv))
 			return 1;

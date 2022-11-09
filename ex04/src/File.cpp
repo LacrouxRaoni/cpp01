@@ -1,7 +1,5 @@
 #include "../includes/File.hpp"
 
-#include <stdio.h>
-
 File::File(){
 }
 
@@ -94,5 +92,4 @@ void File::copyFile()
 		fileReplace << fileBuffer;
 		fileReplace.close();
 	}
-
 }
