@@ -2,9 +2,9 @@
 
 int main(void){
 	Harl harl;
-	harl.complain("warning");
-	harl.complain("debug");
-	harl.complain("info");
+	harl.complain("WARNING");
+	harl.complain("DEBUG");
+	harl.complain("INFO");
 	harl.complain("ERROR");
 	harl.complain("teste");
 }

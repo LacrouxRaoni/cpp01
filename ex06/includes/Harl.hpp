@@ -2,7 +2,6 @@
 #define HARL_HPP
 
 #include <iostream>
-#include <algorithm>
 #include <string>
 
 class Harl{

@@ -28,7 +28,7 @@ void Harl::message(void)
 int Harl::levelToIndex(std::string level)
 {
 	int i;
-	std::transform(level.begin(), level.end(),level.begin(), ::toupper);
+
 	std::string levels[] = {"DEBUG", "INFO", "WARNING", "ERROR"};
 	i = 0;
 	while(i != 4 && level.compare(levels[i]) != 0){
@@ -36,7 +36,6 @@ int Harl::levelToIndex(std::string level)
 	}
 	return i;
 }
-
 
 void Harl::complain( std::string level )
 {
